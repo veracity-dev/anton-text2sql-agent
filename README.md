@@ -38,8 +38,9 @@ jupyter notebook
 ```
 anton-text2sql-agent/
 ├── src/
-│   ├── utils/
-│   │   └── config.py     # Configuration management
+│   └── __init__.py
+├── utils/
+│   ├── config.py     # Configuration management
 │   └── __init__.py
 ├── notebooks/
 │   └── base_agent.ipynb  # Main agent implementation
@@ -59,4 +60,4 @@ anton-text2sql-agent/
 
 - Keep `.env` out of version control
 - Secure your OpenAI API key
-- Use appropriate database permissions# anton-text2sql-agent
+- Use appropriate database permissions
